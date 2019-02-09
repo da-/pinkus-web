@@ -6,7 +6,7 @@ function writeMovie1()
 else if(isiPhone)
 {document.write('<object id="id1" type="video/quicktime" width="511" height="399" style="height: 399px; left: 165px; position: absolute; top: 22px; width: 511px; z-index: 1; "><param name="src" value="Pearl_spoke_only_Yiddish_files/Pearl%20spoke%20Yidish.jpg"/><param name="target" value="myself"/><param name="href" value="../Media/Pearl%20spoke%20Yidish.mov"/><param name="controller" value="true"/><param name="scale" value="tofit"/></object>');}
 else
-{document.write('<object id="id1" type="video/quicktime" width="511" height="399" data="Media/Pearl%20spoke%20Yidish.mov" style="height: 399px; left: 165px; position: absolute; top: 22px; width: 511px; z-index: 1; "><param name="src" value="Media/Pearl%20spoke%20Yidish.mov"/><param name="controller" value="true"/><param name="autoplay" value="false"/><param name="scale" value="tofit"/><param name="volume" value="100"/><param name="loop" value="false"/></object>');}}
+{document.write('<video controls="controls" width="511" height="399" src="Media/Pearl%20spoke%20Yidish.mov" style="height: 399px; left: 165px; position: absolute; top: 22px; width: 511px; z-index: 1; ">Your browser does not support the video tag.</video>');}}
 setTransparentGifURL('Media/transparent.gif');function applyEffects()
 {var registry=IWCreateEffectRegistry();registry.registerEffects({shadow_0:new IWShadow({blurRadius:10,offset:new IWPoint(0.0000,0.0000),color:'#463c3c',opacity:0.750000})});registry.applyEffects();}
 function hostedOnDM()

@@ -6,7 +6,7 @@ function writeMovie1()
 else if(isiPhone)
 {document.write('<object id="id1" type="video/quicktime" width="511" height="399" style="height: 399px; left: 165px; position: absolute; top: 17px; width: 511px; z-index: 1; "><param name="src" value="4_Sisters_Recall_3_Brothers_files/The%203%20Brothers.jpg"/><param name="target" value="myself"/><param name="href" value="../Media/The%203%20Brothers.mov"/><param name="controller" value="true"/><param name="scale" value="tofit"/></object>');}
 else
-{document.write('<object id="id1" type="video/quicktime" width="511" height="399" data="Media/The%203%20Brothers.mov" style="height: 399px; left: 165px; position: absolute; top: 17px; width: 511px; z-index: 1; "><param name="src" value="Media/The%203%20Brothers.mov"/><param name="controller" value="true"/><param name="autoplay" value="false"/><param name="scale" value="tofit"/><param name="volume" value="100"/><param name="loop" value="false"/></object>');}}
+ {document.write('<video controls="controls" width="511" height="399" name="4 Sisters Recall 3 Brothers" src="Media/The%203%20Brothers.mov" style="height: 399px; left: 165px; position: absolute; top: 17px; width: 511px; z-index: 1; ">Your browser does not support the video tag.</video>');}}
 setTransparentGifURL('Media/transparent.gif');function hostedOnDM()
 {return false;}
 function onPageLoad()
