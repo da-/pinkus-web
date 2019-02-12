@@ -1,6 +1,7 @@
 @font-face {
     font-family: 'BickleyScriptLetPlain';
-    src: url('../../fonts/BickleyScriptLetPlain.ttf') format('truetype');
+    src: url('../../fonts/BickleyScriptLetPlain.woff') format('woff'),
+         url('../../fonts/BickleyScriptLetPlain.ttf') format('truetype');
 }
 .Body {
     color: #463c3c;
