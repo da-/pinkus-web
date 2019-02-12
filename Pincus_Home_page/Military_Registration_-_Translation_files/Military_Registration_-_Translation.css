@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'BickleyScriptLetPlain';
+    src: url('../../fonts/BickleyScriptLetPlain.ttf') format('truetype');
+}
 .Body {
     color: #463c3c;
     font-family: 'Palatino-Roman', 'Palatino', serif;
